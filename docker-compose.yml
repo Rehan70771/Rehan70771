@@ -9,7 +9,7 @@ x-common:
   panel:
     &panel-environment
     # This URL should be the URL that your reverse proxy routes to the panel server
-    APP_URL: "https://pterodactyl.example.com"
+    APP_URL: "https://Privater.Zerostore.example.web.id"
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "UTC"
     APP_SERVICE_AUTHOR: "noreply@example.com"
@@ -44,7 +44,7 @@ services:
     environment:
       <<: *db-environment
       MYSQL_DATABASE: "panel"
-      MYSQL_USER: "pterodactyl"
+      MYSQL_USER: "ZeroStore
   cache:
     image: redis:alpine
     restart: always
